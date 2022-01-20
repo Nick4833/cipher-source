@@ -20,22 +20,17 @@ function App() {
   const caserCipher = (normalText, key) => {
     var array = normalText.split("");
     var cipher = 0;
-    console.log(array);
-    console.log(3+ key);
     var cipheredString = "";
     array.forEach(function (item, index) {
       if (!isNaN(item * 1)) {
         cipheredString = cipheredString + item;
       } else {
         if (item === item.toUpperCase()) {
-          console.log(item.charCodeAt());
           cipher = ((item.charCodeAt() - 65 + key) % 26) + 65;
-          console.log(cipher);
           cipheredString = cipheredString + String.fromCharCode(cipher);
         }
         if (item === item.toLowerCase()) {
           cipher = ((item.charCodeAt() + key -97) % 26) + 97;
-          console.log(cipher);
           cipheredString = cipheredString + String.fromCharCode(cipher);
         }
       }
