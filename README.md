@@ -1,7 +1,8 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-The main function for the Cipher is in src/App.js.
+The main function for the Cipher is in src/App.js.\
+## `Demo: https://cipher-demo.herokuapp.com/`
 
 ## Available Scripts
 
