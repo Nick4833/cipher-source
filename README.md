@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 The main function for the Cipher is in src/App.js.\
 ## `Demo: https://cipher-demo.herokuapp.com/`
 
+## `Documentation: https://docs.google.com/document/d/14S_gVByDcW-y1jOYzuOn4tYdx2PKmQEIic-QUDIFdB4/edit?usp=sharing`
+
 ## Available Scripts
 
 In the project directory, you can run:
